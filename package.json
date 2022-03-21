@@ -2,6 +2,7 @@
 	"name": "better-date.js",
 	"version": "1.0.0",
 	"description": "",
+	"license": "GNU 3.0",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +12,6 @@
 		"url": "git+https://github.com/Gamearoos-development/better-date.js.git"
 	},
 	"author": "",
-	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/Gamearoos-development/better-date.js/issues"
 	},
