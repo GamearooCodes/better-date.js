@@ -1,0 +1,24 @@
+{
+  "name": "better-date",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gamearoos-development/better-date.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gamearoos-development/better-date.js/issues"
+  },
+  "homepage": "https://github.com/Gamearoos-development/better-date.js#readme",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "simply-logger": "^0.2.25"
+  }
+}
