@@ -1,24 +1,31 @@
 {
   "name": "better-date.js",
-  "version": "1.0.3",
+  "version": "2.0.0-dev.1",
   "description": "",
   "license": "GNU 3.0",
-  "main": "index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/cjs/index.d.ts",
   "scripts": {
-    "test": "node test.js"
+    "build": "npm run buildESM && npm run buildcjs",
+    "buildESM": "tsc",
+    "buildcjs": "tsc --module CommonJS --outDir dist/cjs"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gamearoos-development/better-date.js.git"
   },
-  "author": "",
+  "author": "Gamearoo",
   "bugs": {
     "url": "https://github.com/Gamearoos-development/better-date.js/issues"
   },
   "homepage": "https://github.com/Gamearoos-development/better-date.js#readme",
   "dependencies": {
+    "@classycrafter/super-logger": "^2.0.0",
     "moment": "^2.29.1",
-    "moment-timezone": "^0.5.34",
-    "simply-logger": "^0.2.25"
+    "moment-timezone": "^0.5.34"
   }
 }
